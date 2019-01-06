@@ -1,9 +1,9 @@
-<h1 class="logo">Video Link</h1>
+<h1>Video Link</h1>
 
 <%= form_with scope: :article, url: articles_path, local: true do |form| %>
   <p>
-    <%= form.label "Enter Link Below", class: 'news'%><br>
-    <%= form.text_field :title, class: 'news' %>
+    <%= form.label "Enter Link Below", class: 'small'%><br>
+    <%= form.text_field :title, class: 'small' %>
   </p>
  
   <p>
@@ -11,4 +11,4 @@
   </p>
 <% end %>
 
-<%= link_to 'Back', welcome_index_path, class: 'news' %>
+<%= link_to 'Back', welcome_index_path, class: 'small' %>
