@@ -14,8 +14,6 @@
  *= require_self
  */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
  body {
   background: #282828;/* match border color */
   text-align: center;
