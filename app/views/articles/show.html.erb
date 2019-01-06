@@ -1,11 +1,10 @@
 
-<p>
-  <strong>Title:</strong>
-  <%= @article.title %>
-</p>
+
  
 <<iframe src= 'https://www.youtube.com/embed/<%= @article.title %>' frameborder='0'></iframe>
 
+
+<%= link_to 'Back', welcome_index_path, class: 'news' %>
 
 <!--
 <iframe src= 'https://www.youtube.com/embed/videoseries?list=<%= @article.title %>' frameborder='0'></iframe>
